@@ -1,0 +1,51 @@
+PartyBlockLocation:
+  ==: org.bukkit.Location
+  world: world
+  x: 0.0
+  y: 0.0
+  z: 0.0
+  pitch: 0.0
+  yaw: 0.0
+Messages:
+  - "§dPartyDropEvent is starting soon!"
+  - "§k:::§r§l§1%COUNTDOWN% §r§dseconds until event starts!§r§k:::"
+  - "§l§6DROP DROP DROP DROP DROP DROP DROP DROP"
+DropRate: 20
+DropItems:
+  firstItem:
+    ==: org.bukkit.inventory.ItemStack
+    type: ANVIL
+    amount: 64
+  secondItem:
+    ==: org.bukkit.inventory.ItemStack
+    type: CACTUS
+    amount: 64
+  diamonds:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND
+    amount: 64
+  special:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_SWORD
+    damage: 300
+    amount: 5
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: DisplayName
+      lore:
+        - Lore
+        - lore2
+        - lore3
+      enchants:
+        ARROW_DAMAGE: 10
+        DAMAGE_ARTHROPODS: 20
+      ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+      Unbreakable: true
+Amounts:
+  firstItem: 2
+  secondItem: 50
+  diamonds: 6
+  special: 1

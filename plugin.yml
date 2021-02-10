@@ -1,0 +1,35 @@
+name: BeaconDropParty
+main: com.ambmt.dropParty.BeaconDropParty
+version: 1.0.0
+author: ambmt
+api-version: 1.8
+
+commands:
+  bdp:
+    usage: /<command> [setblock|startevent|forcestart|stop|setdroprate|add|reload] [time|droprate|objectname] [amount]
+    description: Allows you to make some changes for this plugin.
+    permission: beacondropparty.commands
+    permission-message: ?What are you searching here?
+
+permissions:
+  beacondropparty.setblock:
+    description: Set a new BeaconBlock as PartyDropBeacon.
+    default: op
+  beacondropparty.reload:
+    description: Reload the Config file.
+    default: op
+  beacondropparty.add:
+    description: Add a new Item to the dropItemList.
+    default: op
+  beacondropparty.forcestart:
+    description: Forcestart the Event.
+    default: op
+  beacondropparty.startevent:
+    description: Start the Event with Countdown.
+    default: op
+  beacondropparty.stop:
+    description: Stop the Event.
+    default: op
+  beacondropparty.setdroprate:
+    description: Set a new DropRate.
+    default: op
