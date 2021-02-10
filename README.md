@@ -5,7 +5,7 @@ https://ambmt.xyz
 <br />
 <p align="center">
   <a href="https://github.com/ambmt">
-    <img src="images/clear-a.jpg" alt="Logo" width="80" height="80">
+    <img src="images/clear-a.png" alt="Logo" width="80" height="80">
   </a>
 
 ## Prerequisites
